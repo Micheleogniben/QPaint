@@ -1,0 +1,8 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/">
+        <file>resources/icons/drawLine.png</file>
+        <file>resources/icons/drawCircle.png</file>
+        <!-- Aggiungi altre risorse qui se necessario -->
+    </qresource>
+</RCC>
