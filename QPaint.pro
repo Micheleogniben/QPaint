@@ -31,8 +31,7 @@ HEADERS += \
     canvas.h \
     gui.h
 
-FORMS += \
-    mainwindow.ui
+
 
 # Configurazione delle risorse
 RESOURCES += resources.qrc
@@ -41,3 +40,4 @@ RESOURCES += resources.qrc
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
