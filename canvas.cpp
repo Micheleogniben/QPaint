@@ -8,4 +8,3 @@ Canvas::Canvas(QWidget* parent)
     setFixedSize(800, 600);
     setMouseTracking(true);
 }
-
