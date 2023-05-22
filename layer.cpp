@@ -31,7 +31,14 @@ CanvasObject& Layer::first() const{
 }
 
 CanvasObject& Layer::last() const{
-    return (*this)[size() - 1];
+    Node* nd = head;
+    if (!nd)
+        throw std::runtime_error("Layer is empty");
+
+    while(nd->next)
+        nd = nd->next;
+
+    return nd->obj;
 }
 
 void Layer::push_back(CanvasObject& obj){
